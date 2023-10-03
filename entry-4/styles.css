@@ -1,0 +1,118 @@
+body{
+    background-color: blue;
+}
+h1{
+    position: center;
+    top: 0;
+    left: 0;
+    font-family: 'Common Pixel', sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: -0.88px;
+    line-height: 60px;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    height: 100vh;
+    }
+
+    .centered-image {
+        grid-column: 2 / span 2; /* Place the image in columns 2 and 3 (centered horizontally) */
+        grid-row: 1 / span 3; /* Place the image in rows 2 and 3 (centered vertically) */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      .centered-image img {
+        width:450px;
+        height: auto;
+      }
+
+      .centered-book {
+        grid-column: 2 / span 2; /* Place the image in columns 2 and 3 (centered horizontally) */
+        grid-row: 2 / span 2; /* Place the image in rows 2 and 3 (centered vertically) */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: -200px;
+      }
+
+      .centered-book span{
+        position: absolute;
+        top: 22.3%;
+        right: 28.55%;
+        align-items: center;
+        font-family:"Roboto Mono-Regular", Helvetica;
+        font-size: 12px;
+        font-weight: 400;
+        color: #ffffff;
+      }
+     
+      .centered-book img {
+        width:650px;
+        height: auto;
+      }
+      .align-center{
+        grid-column: 2 / span 2; /* Place the image in columns 2 and 3 (centered horizontally) */
+        grid-row: 1; 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: -700px;
+    }
+
+    .text {
+        position: absolute;
+        top: 25%;
+        left: 33%;
+        align-items: center;
+        font-family:"Roboto Mono-Regular", Helvetica;
+        font-size: 24px;
+        font-weight: 400;
+        color: #ffffff;
+      }
+
+      .author {
+        position: absolute;
+        top: 32%;
+        left: 35.5%;
+        align-items: center;
+        font-family:"Roboto Mono-Regular", Helvetica;
+        font-size: 24px;
+        font-weight: 400;
+        color: #ffffff;
+      }
+
+      .carl-sagan img{
+        position: absolute;
+        top: 40%;
+        left: 28.5%;
+        align-items: center;
+        width: 300px;
+        height: auto;
+      }
+
+      button{
+        position: absolute;
+        top: 90%;
+        left: 45%;
+        font-family: 'Common Pixel', sans-serif;
+        font-weight: 400;
+        color: #ffffff;
+        font-size: 40px;
+        text-align: center;
+        letter-spacing: -0.88px;
+        line-height: 60px;
+        background-color: blue;
+    }
+
+
+
