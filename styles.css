@@ -1,16 +1,66 @@
 body{
   background-color: blue;
 }
-h1{
+
+.background-container {
   position: absolute;
-  width: 500px;
   top: 0;
-  left: 35%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.floating-text {
+  position: absolute;
+  color: rgb(119, 119, 255);
+  font-size: 30px;
+  font-family: 'Common Pixel', sans-serif;
+  animation: float 10s linear infinite; 
+}
+
+.left-to-right {
+  animation-name: float-left-to-right;
+  top: 1%;
+  right: -5%; 
+}
+
+.right-to-left {
+  animation-name: float-right-to-left;
+  top: 20%;
+  left: -5%;
+}
+
+@keyframes float-left-to-right {
+  0% {
+      transform: translateX(-100%);
+  }
+  50% {
+      transform: translateX(100%);
+  }
+  100% {
+      transform: translateX(-100%);
+  }
+}
+
+@keyframes float-right-to-left {
+  0% {
+      transform: translateX(100%);
+  }
+  50% {
+      transform: translateX(-100%);
+  }
+  100% {
+      transform: translateX(100%);
+  }
+}
+
+h1{
   font-family: 'Common Pixel', sans-serif;
   font-weight: 400;
   color: #ffffff;
-  font-size: 40px;
+  font-size: 50px;
   text-align: center;
+  padding: 100px;
   letter-spacing: 0px;
   line-height: 60px;
 }
@@ -23,9 +73,25 @@ h1{
     font-family: 'Common Pixel', sans-serif;
     font-weight: 400;
     color: #ffffff;
-    font-size: 40px;
-    text-align: center;
+    font-size: 30px;
     letter-spacing: -0.88px;
     line-height: 60px;
       }
  
+    .parent{
+      display: block;
+      column-count: 2;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: left;
+    }
+
+    ul {
+      padding: 20px;
+      gap: 200px;
+    }
+    
+    li {
+      margin-bottom: 20px; /* Adjust the value to set the desired space between list items */
+    }
+  

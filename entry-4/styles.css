@@ -2,9 +2,9 @@ body{
     background-color: blue;
 }
 h1{
-    position: center;
-    top: 0;
-    left: 0;
+    position: absolute;
+    top: 5%;
+    left:32.5%;
     font-family: 'Common Pixel', sans-serif;
     font-weight: 400;
     color: #ffffff;
@@ -25,7 +25,7 @@ h1{
 
     .centered-image {
         grid-column: 2 / span 2; /* Place the image in columns 2 and 3 (centered horizontally) */
-        grid-row: 1 / span 3; /* Place the image in rows 2 and 3 (centered vertically) */
+        grid-row: 2 / span 2; /* Place the image in rows 2 and 3 (centered vertically) */
         display: flex;
         justify-content: center;
         align-items: center;
@@ -38,7 +38,7 @@ h1{
 
       .centered-book {
         grid-column: 2 / span 2; /* Place the image in columns 2 and 3 (centered horizontally) */
-        grid-row: 2 / span 2; /* Place the image in rows 2 and 3 (centered vertically) */
+        grid-row: 2 / span 3; /* Place the image in rows 2 and 3 (centered vertically) */
         display: flex;
         justify-content: center;
         align-items: center;
