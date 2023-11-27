@@ -1,82 +1,94 @@
-body{
-    background-color: blue;
-    font-family: 'Common Pixel', sans-serif;
+body {
+  background-color: blue;
+  font-family: "Common Pixel", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-h1{
-    position: center;
-    top: 0;
-    left: 0;
-    font-family: 'Common Pixel', sans-serif;
-    font-weight: 400;
-    color: #ffffff;
-    font-size: 40px;
-    text-align: center;
-    letter-spacing: -0.88px;
-    line-height: 60px;
+h1 {
+  position: center;
+  top: 0;
+  left: 0;
+  font-family: "Common Pixel", sans-serif;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 40px;
+  text-align: center;
+  letter-spacing: -0.88px;
+  line-height: 60px;
 }
 
 .parent {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(4, 1fr);
-    grid-column-gap: 10px;
-    grid-row-gap: 10px;
-    height: 100vh;
-    }
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  height: 100vh;
+}
 
 .chat-container {
-    width: 500px;
-    margin: 50px auto;
-}
-/* for the chat box */
-.chat-display {
-    border: 3px solid #ffffff;
-    padding: 10px;
-    height: 550px;
-    overflow-y: scroll;
-    color: white;
+  max-width: 600px;
+  width: 70%;
+  min-width: 300px;
+  height: 500px;
+  margin: 50px 0;
+  border: 3px solid #ffffff;
+
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-    .textbox-input {
-    position: absolute;
-    top: 70%;
-    left: 37%;
-    font-family: 'Common Pixel', sans-serif;
-    color: #ffffff;
-    font-size: 20px;
-    text-align: center;
-    letter-spacing: -0.88px;
-    line-height: 30px;
-    background-color: blue;
-    
+.chat {
+  box-sizing: border-box;
+  padding: 10px;
+  overflow-y: scroll;
+  color: white;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+/* for the chat box */
+.input-container {
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+}
+
+.textbox-input {
+  font-family: "Common Pixel", sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: -0.88px;
+  line-height: 30px;
+  background-color: blue;
+  flex: 1;
+
+  width: 70%;
 }
 
 /* for the send button */
 .send-button {
-    position: absolute;
-    top: 70%;
-    left: 58%;
-    font-family: 'Common Pixel', sans-serif;
-    font-weight: 400;
-    color: #ffffff;
-    font-size: 20px;
-    text-align: center;
-    letter-spacing: -0.88px;
-    line-height: 30px;
-    background-color: blue;
+  font-size: 20px;
+  padding: 0 16px;
 }
 
-button{
-    position: absolute;
-    top: 85%;
-    left: 45%;
-    font-family: 'Common Pixel', sans-serif;
-    font-weight: 400;
-    color: #ffffff;
-    font-size: 40px;
-    text-align: center;
-    letter-spacing: -0.88px;
-    line-height: 60px;
-    background-color: blue;
+button {
+  font-family: "Common Pixel", sans-serif;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 40px;
+  text-align: center;
+  letter-spacing: -0.88px;
+  line-height: 60px;
+  background-color: blue;
 }
 
+.close-button {
+  margin-top: 40px;
+}
