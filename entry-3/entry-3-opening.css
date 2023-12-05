@@ -1,66 +1,61 @@
-body{
-    background-color: blue;
+body {
+  background-color: blue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
 }
 
-h1{
-    position: center;
-    top: 0;
-    left: 0;
-    font-family: 'Common Pixel', sans-serif;
-    font-weight: 400;
-    color: #ffffff;
-    font-size: 40px;
-    text-align: center;
-    letter-spacing: -0.88px;
-    line-height: 60px;
+h1 {
+  font-family: 'Common Pixel', sans-serif;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 40px;
+  text-align: center;
+  letter-spacing: -0.88px;
+  line-height: 60px;
+  align-self: center;
 }
 
 img {
-    max-width: 100%;
+  max-width: 100%;
 }
 
-.parent {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(4, 1fr);
-    grid-column-gap: 10px;
-    grid-row-gap: 10px;
-    height: 100vh;
-    }
+.centered-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-      .centered-image {
-        grid-column: 2 / span 2; 
-        grid-row: 1 / span 3;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      } 
-      
-      .centered-image img {
-        width:600px;
-        height: auto;
-      }
+.centered-image img {
+  margin-top: 58px;
+  width: 600px;
+  height: auto;
+}
 
-      .clickable-text {
-        position: absolute;
-        cursor: pointer;
-        font-size: 20px;
-        color: transparent;
-        background-color: transparent;
-    }
+.clickable-text {
+  position: absolute;
+  cursor: pointer;
+  font-size: 20px;
+  color: transparent;
+  background-color: transparent;
+}
 
+.button {
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
-    button{
-        position: absolute;
-        top: 85%;
-        left: 50%; 
-        transform: translateX(-50%); 
-        font-family: 'Common Pixel', sans-serif;
-        font-weight: 400;
-        color: #ffffff;
-        font-size: 40px;
-        text-align: center;
-        letter-spacing: -0.88px;
-        line-height: 60px;
-        background-color: blue;
-    }
+button {
+  font-family: 'Common Pixel', sans-serif;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 40px;
+  text-align: center;
+  letter-spacing: -0.88px;
+  line-height: 60px;
+  background-color: blue;
+}

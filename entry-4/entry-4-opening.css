@@ -1,0 +1,99 @@
+body{
+    background-color: blue;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+
+h1{
+    position: center;
+    top: 0;
+    left: 0;
+    font-family: "Common Pixel", sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: -0.88px;
+    line-height: 60px;
+}
+  
+  button {
+    margin-top: -300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Common Pixel", sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: -0.88px;
+    line-height: 60px;
+    background-color: blue;
+}
+
+.centered-book {
+    display: flex;
+    position:center;
+}
+
+.centered-book img {
+    width:700px;
+    height: auto;
+}
+     
+.content {
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-end; 
+    height: 100vh;
+    margin-top: -510px;
+    margin-left: 350px;
+    max-width: 72%;
+    font-family: "Roboto Mono-Regular", Helvetica;
+    font-size: 12px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.title {
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start; 
+    height: 100vh;
+    margin-top: -800px;
+    margin-right: 375px;
+    max-width: 70%;
+    font-family:"Roboto Mono-Regular", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+    .author {
+        display: flex;
+        flex-direction: column; 
+        align-items: flex-start; 
+        height: 100vh;
+        margin-top: -750px;
+        margin-right: 375px;
+        font-family:"Roboto Mono-Regular", Helvetica;
+        font-size: 24px;
+        font-weight: 400;
+        color: #ffffff;
+    }
+
+      .carl-sagan img{
+        display: flex;
+        flex-direction: column; 
+        align-items: flex-start; 
+        height: 100vh;
+        margin-top: -700px;
+        margin-right: 375px;
+        width: 300px;
+        height: auto;
+      }
+
+    
+

@@ -1,10 +1,11 @@
 body{
     background-color: blue;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
 }
 h1{
     position: center;
-    top: 0;
-    left: 0;
     font-family: 'Common Pixel', sans-serif;
     font-weight: 400;
     color: #ffffff;
@@ -14,6 +15,30 @@ h1{
     line-height: 60px;
 }
 
+.centered-image {
+    position: center;
+    margin: 100px;
+  }
+  
+  .centered-image img {
+    width:350px;
+    height: auto;
+  }
+
+button{
+    position: center;
+    margin-top: 10px;
+    font-family: 'Common Pixel', sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: -0.88px;
+    line-height: 60px;
+    background-color: blue;
+}
+
+/*
 .parent {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -24,8 +49,8 @@ h1{
     }
 
     .centered-image {
-        grid-column: 2 / span 2; /* Place the image in columns 2 and 3 (centered horizontally) */
-        grid-row: 1 / span 3; /* Place the image in rows 2 and 3 (centered vertically) */
+        grid-column: 2 / span 2; 
+        grid-row: 1 / span 3; 
         display: flex;
         justify-content: center;
         align-items: center;
@@ -37,24 +62,11 @@ h1{
       }
 
       .align-center{
-        grid-column: 2 / span 2; /* Place the image in columns 2 and 3 (centered horizontally) */
+        grid-column: 2 / span 2;
         grid-row: 1; 
         display: flex;
         align-items: center;
         justify-content: center;
         margin-top: -700px;
     }
-
-    button{
-        position: absolute;
-        top: 85%;
-        left: 45%;
-        font-family: 'Common Pixel', sans-serif;
-        font-weight: 400;
-        color: #ffffff;
-        font-size: 40px;
-        text-align: center;
-        letter-spacing: -0.88px;
-        line-height: 60px;
-        background-color: blue;
-    }
+    */

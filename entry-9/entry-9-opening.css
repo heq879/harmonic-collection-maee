@@ -1,50 +1,51 @@
-body{
-    display: flex;
-    flex-direction: column; 
-    align-items: center;
-    /* justify-content: center; */
-    background-color: blue;
-  }
-  h1{
-    position: center;
-    margin-top: 100px;
-    font-family: 'Common Pixel', sans-serif;
-    font-weight: 400;
-    color: #ffffff;
-    font-size: 40px;
-    text-align: center;
-    letter-spacing: -0.88px;
-    line-height: 5px;
-  }
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  background-color: blue;
+}
 
-  .text-container {
-    position: center;
-    text-align: center;
-    margin-top: 50px;
-    overflow: hidden;
-  }
+h1 {
+  position: center;
+  margin-top: 100px;
+  font-family: 'Common Pixel', sans-serif;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 40px;
+  text-align: center;
+  letter-spacing: -0.88px;
+  line-height: 5px;
+}
 
-     .text{
-        font-family: 'Common Pixel', sans-serif;
-        font-weight: 400;
-        color: #ffffff;
-        font-size: 10px;
-        text-align: center;
-        margin-top: 50px;
-        letter-spacing: -0.88px;
-        line-height: 10px;
-        transition: font-size 0.5s;
-    }
+.text-container {
+  position: center;
+  text-align: center;
+  margin-top: 50px;
+  overflow: hidden;
+}
+
+.text {
+  font-family: 'Common Pixel', sans-serif;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 10px;
+  text-align: center;
+  margin-top: 50px;
+  letter-spacing: -0.88px;
+  line-height: 10px;
+  transition: font-size 0.5s;
+}
 
 
-  button {
-    margin-top: 50px;
-    font-family: "Common Pixel", sans-serif;
-    font-weight: 400;
-    color: #ffffff;
-    font-size: 40px;
-    text-align: center;
-    letter-spacing: -0.88px;
-    line-height: 60px;
-    background-color: blue;
-  }
+button {
+  margin-top: 50px;
+  font-family: "Common Pixel", sans-serif;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 40px;
+  text-align: center;
+  letter-spacing: -0.88px;
+  line-height: 60px;
+  background-color: blue;
+}

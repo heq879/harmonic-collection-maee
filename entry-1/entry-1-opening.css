@@ -1,10 +1,10 @@
-body{
-  display: flex;
-  flex-direction: column; 
-  /* gap:20px; */
-  align-items: center;
-  /* justify-content: center; */
+body {
   background-color: blue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
 }
 
 h1{
@@ -45,19 +45,22 @@ h1{
       margin-top: -50%;
     }
 
-    button{
-        position: center;
-        display: flex;
-        margin-top: 50px; 
-        font-family: 'Common Pixel', sans-serif;
-        font-weight: 400;
-        color: #ffffff;
-        font-size: 40px;
-        text-align: center;
-        letter-spacing: -0.88px;
-        line-height: 60px;
-        background-color: blue;
+    .button {
+      margin-top: 70px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
-
+    
+    button {
+      font-family: 'Common Pixel', sans-serif;
+      font-weight: 400;
+      color: #ffffff;
+      font-size: 40px;
+      text-align: center;
+      letter-spacing: -0.88px;
+      line-height: 60px;
+      background-color: blue;
+    }
 
   
